@@ -1,8 +1,13 @@
 <%# so name of file should be according to the method in the controller, not controller name itself %>
+<h1>Stupid Coaching</h1>
+
+<p>Ask your Coach anything:</p>
+
+<br>
 
 <form action="/answer" data-turbo="false">
   <input type="text" name="question">
   <%# name= is link text after question mark %>
   <%# form action is the "site" we are getting routed to upon clicking Ask! button %>
-  <input type="submit" value="Ask!">
+  <input type="submit" class="btn btn-primary" value="Ask!">
 </form>
